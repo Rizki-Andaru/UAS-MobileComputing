@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter: Launch App",
+            "request": "launch",
+            "type": "dart"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Launch AutoCare+ & AI Backend",
+            "configurations": ["Flutter: Launch App"],
+            "preLaunchTask": "run-ai-backend"
+        }
+    ]
+}
